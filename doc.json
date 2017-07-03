@@ -11,6 +11,7 @@
                 }
             },
             "put": {
+                "summary": "Get contact",
                 "parameters": [
                     {
                         "name": "body",
