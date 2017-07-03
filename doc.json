@@ -2,5 +2,39 @@
     "swagger": "2.0",
     "info": {
         "title": "Contact API"
+    },
+    "paths": {
+        "/contacts": {
+            "get": {
+                "responses": {
+                    "200": {}
+                }
+            },
+            "put": {
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {}
+                }
+            },
+            "post": {
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body"
+                    }
+                ],
+                "responses": {
+                    "200": {}
+                }
+            }
+        }
     }
 }
